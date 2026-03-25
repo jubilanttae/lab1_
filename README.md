@@ -17,3 +17,17 @@ and deciding what items are the most valuable to pack.
 
 ### Randomizing instances:
 The instances are generated pseudorandomly using seed provided by the user.
+
+## Unit tests
+
+### Executed tests:
+- **MethodCountElements** - checks if there is correct number of elements generated
+- **MethodAnyApplicable** - checks if solution is generated when there is at least one applicable element
+- **MethodNoneApplicable** - checks if solution is not generated when there is not any applicable elements
+- **MethodSolve** - checks if the generated solution is correct
+- **MethodNotExceededCapacity** - checks if weight of the selected elements does not exceed capacity
+- **MethodDuplicates** - checks if there are no duplicates among selected items
+
+## Windows Forms App
+
+The application consists of 3 text boxes for **capacity, seed and number of elements input**, a button for **running the simulation** and two **displays for instances and the solution**.
